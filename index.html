@@ -1,21 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap-Portfolio</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="images/logo3.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work-section">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills-section">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Hello, I am Priyanka Padalia</h1>
+      <p class="lead">Highly committed, conscientious and IDM qualified digital marketing practitioner, with over 5
+        years
+        of varied experience in digital marketing and public relations now seeking to add front end development in my
+        portfolio.
+      </p>
+      <hr class="my-4">
+      <p>This will help add value to various aspects of web development such as user experience, responsiveness and
+        visual
+        design. Digital Marketing and Front-end development go hand in hand.</p>
+    </div>
+  </div>
+
+  <!-- work -->
+  <div id="work-section" class="work-section">
+    <div class="card-group ml-auto mr-auto" style="width: 80%;">
+      <div class="card">
+        <img src="images/Web_Development.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web Developement</h5>
+          <p class="card-text">Solution driven web developer knowledge of frontend web programing languages and skills
+            such as HTML, CSS, Bootstrap and JavaScript.</p>
+        </div>
       </div>
+      <div class="card">
+        <img src="images/Web_Design.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">UX/UI</h5>
+          <p class="card-text">I love to create the design and layout of websites and web pages. I have developed
+            websites and believe that a good UX/UI is essential for every website.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Web_Development.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Solution</h5>
+          <p class="card-text">Solution driven web developer knowledge of frontend web programing languages and skills
+            such as HTML, CSS, Bootstrap and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skills -->
+  <div id="skills-section" class="container mt-5 bg-color">
+    <h2>Skills</h2>
+    <div class="row d-flex justify-content-around">
+      <div class="col-sm-3 text-center">HTML</div>
+      <div class="col-sm-3 text-center">CSS</div>
+      <div class="col-sm-3 text-center">Bootstrap</div>
+      <div class="col-sm-3 text-center">JavaScript</div>
+    </div>
+  </div>
+
+  <!-- about -->
+  <div id="about-section" class="container mt-5 bg-color">
+    <h2>About</h2>
+    <div class="row">
+      <div class="col-sm-12">Highly committed, conscientious and IDM qualified digital marketing practitioner, with over 5
+        years of varied experience in digital marketing and public relations now seeking to add front end development in
+        my portfolio.</div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div id="contact-section" class="container mt-5 mb-5 bg-color">
+    <h2>Contact</h2>
+    <div class="row d-flex justify-content-around">
+      <div class="col-sm-3 text-center">+447912345678</div>
+      <div class="col-sm-3 text-center"><a href="mailto:supriya.kaneria@gmail.com">supriya.kaneria@gmail.com</a></div>
+      <div class="col-sm-3 text-center"><a class="btn btn-primary mt-1" href="" target="_blank">Github</a></div>
+      <div class="col-sm-3 text-center"><a class="btn btn-primary mt-1" href="" target="_blank">LinkedIn</a></div>
+    </div>
+  </div>
+
 </body>
+
 </html>
