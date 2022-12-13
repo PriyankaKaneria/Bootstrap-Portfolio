@@ -4,7 +4,7 @@
 A portfolio of work created in Bootstrap that showcases my skills that I have learned in the Front End Developer bootcamp. It also includes deployed web applications.
 
 ## Link to deployed site
-https://github.com/PriyankaKaneria/Bootstrap-Portfolio
+https://priyankakaneria.github.io/Bootstrap-Portfolio
 
 ## Link to github
 https://github.com/PriyankaKaneria
